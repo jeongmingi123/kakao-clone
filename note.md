@@ -16,7 +16,7 @@
 - <div>는 박스와 같은 태그, 박스안에 내용물을 넣을 때 사용한다.
 - <span> 텍스트를 위한 컨테이너이며, <p> or <title>와 같은 경우는 아니다.
 
-- ID, Class란 무엇인가?
+* ID, Class란 무엇인가?
 
 1. ID란?
 
@@ -106,3 +106,56 @@ property-name: value;
 2. inline Block
 
 - inline Block은 CSS인데, display: inline; 와 같이 설정해주면 가로로 블록이 2개 설정가능
+
+* password + submit 만들기 및 input 태그 CSS 적용 방법
+
+1. password + submit 만들기 예시
+
+- password + submit 예시는 다음과 같다.
+
+ex)
+
+<div class="box">
+
+<input type="passwrod">
+<input type="submit">
+
+</div>
+
+- input 태그, CSS 적용 방법
+
+* 예시는 2가지로 나뉜다
+
+1. 클래스처럼 css 적용 방법
+
+ex)
+
+<style>
+
+.submit{
+
+  background-color:red;
+
+}
+
+</style>
+
+2. 가상 셀렉터 이용하여 CSS 적용 방법
+
+- 가상 셀렉터에 대한 설명 (https://poiemaweb.com/css3-selector)
+
+<style>
+
+input[type="submit"]{
+
+  background-color:red;
+
+}
+
+input[type="passwrod"]{
+
+  background-color:blue;
+
+}
+
+</style>
