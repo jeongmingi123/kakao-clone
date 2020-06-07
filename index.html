@@ -8,10 +8,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__columm"></div>
       <span class="status-bar__clock">13:53</span>
       <div class="status-bar__columm">
         <i class="fas fa-bell"></i>
@@ -43,26 +43,26 @@
       </div>
     </header>
     <main class="Chats">
-      <li class="Chats__list">
-        <ul class="Chats__columm">
+      <ul class="Chats__list">
+        <li class="Chats__columm">
           <div class="Chats__userImage">
             <img
               src="image/dog-4390885__340.webp"
               alt=""
               class="chat__avatar"
             />
-            <div class="Chats__content">
-              <span class="Chats__username">Lynn</span>
-              <span class="Chats__timestemp">Yesterday</span>
-            </div>
-            <div class="Chats__content">
-              <span class="Chats__comment">Going home</span>
-            </div>
           </div>
-        </ul>
-      </li>
+          <div class="Chats__content">
+            <span class="Chats__username">Lynn</span>
+            <span class="Chats__timestemp">Yesterday</span>
+          </div>
+          <div class="Chats__content">
+            <span class="Chats__comment">Going home</span>
+          </div>
+        </li>
+      </ul>
     </main>
-    <nav class="nav-bar">
+    <nav class="nav">
       <ul class="nav-bar-link">
         <li class="nav-bar-item">
           <a href="friends.html" class="nav-bar-link">
@@ -71,6 +71,7 @@
         </li>
         <li class="nav-bar-item">
           <a href="index.html" class="nav-bar-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
