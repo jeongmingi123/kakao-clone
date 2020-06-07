@@ -15,3 +15,8 @@ body {
 a {
   color: inherit;
 }
+
+img {
+  height: 62px;
+  width: 80px;
+}

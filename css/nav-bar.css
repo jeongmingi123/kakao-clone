@@ -25,7 +25,7 @@
 
 .nav .nav__badge {
   position: absolute;
-  top: -7px;
+  top: -7px; /* https://homzzang.com/b/css-109 참조 */
   right: -7px;
   color: white;
   background-color: #e55d39;
@@ -34,5 +34,5 @@
   display: flex;
   justify-content: center; /* https://webzz.tistory.com/482 참조 */
   align-items: center;
-  border-radius: 50%;
+  border-radius: 90%; /* 퍼센트가 높을수록 원형에 가까워짐 */
 }
