@@ -9,8 +9,8 @@
   align-items: center;
 }
 
-.chat__avatar {
-  margin-right: 15px;
+.chat__avatar13 {
+  margin-right: 18px;
 }
 
 .Chats__content .Chats__username {
@@ -20,7 +20,7 @@
 }
 
 .Chats__content .Chats__comment {
-  font-size: 14px;
+  font-size: 12px;
   opacity: 0.7; /* 투명도 */
 }
 
