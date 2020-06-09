@@ -159,3 +159,6 @@ input[type="passwrod"]{
 }
 
 </style>
+
+justify-content 수평
+align-itme 수직

@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import "header.css";
 @import "nav-bar.css";
+@import "main.css";
+@import "friends.css";
 
 body {
   background-color: white;
@@ -13,10 +15,11 @@ body {
 }
 
 a {
-  color: inherit;
+  color: inherit; /* url 아이콘 보라색 표시 안나오게 하는 방법 */
 }
 
 img {
-  height: 62px;
-  width: 80px;
+  height: 60px;
+  width: 70px;
+  border-radius: 40%;
 }
