@@ -162,3 +162,12 @@ input[type="passwrod"]{
 
 justify-content 수평
 align-itme 수직
+
+DIV { padding: 2em }
+상,하,좌,우 모든 마진들을 2em으로 설정
+DIV { padding: 1em 2em }
+상, 하 = 1em, 좌, 우 = 2em
+DIV { padding: 1em 2em 3em }
+상=1em, 좌, 우=2em, 하=3em
+DIV { padding: 1em 2em 3em 4em }
+상=1em, 우=2em, 하=3em, 좌=4em
