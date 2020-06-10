@@ -24,14 +24,19 @@
   margin-bottom: 10px;
 }
 
-.plus__friends__content {
+.plus__friends__all {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.plus__friends__content {
   margin-bottom: 20px;
 }
 
-.plus__friends__name2 {
-  justify-content: space-between;
+.plus__friends__image {
+  display: flex;
+  align-items: center;
 }
 .chat__avatar {
   margin-right: 18px;
@@ -50,7 +55,7 @@
 
 .frineds__list__name {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   font-weight: 700;
   font-size: 12px;
 }

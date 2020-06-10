@@ -5,6 +5,7 @@
 @import "nav-bar.css";
 @import "main.css";
 @import "friends.css";
+@import "find.css";
 
 body {
   background-color: white;

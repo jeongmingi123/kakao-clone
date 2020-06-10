@@ -1,0 +1,19 @@
+.find__header__iconlist i {
+  font-size: 40px;
+}
+
+.find__header__iconlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon__div {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction 을 사용 할려면 기존 전제 조건이 display:flex 임
+   https://studiomeal.com/archives/197*/
+  align-items: center;
+}
+
+.icon {
+}
