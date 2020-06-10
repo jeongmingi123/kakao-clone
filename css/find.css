@@ -1,10 +1,11 @@
-.find__header__iconlist i {
-  font-size: 40px;
+.header-bar__chats {
+  margin-bottom: 10px;
 }
 
 .find__header__iconlist {
   display: flex;
   justify-content: space-between;
+  padding: 0px 10px;
 }
 
 .icon__div {
@@ -15,5 +16,40 @@
   align-items: center;
 }
 
+.find__header {
+}
+
 .icon {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.icon__name {
+  font-size: 10px;
+}
+
+.find__recommFriends_title {
+  opacity: 0.7;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-top: 1px solid #f7f7f7;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.find__recommFriends__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.find__recommFriends1__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find__recommFriends__list__name {
+  font-weight: 700;
 }
