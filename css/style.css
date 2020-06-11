@@ -6,6 +6,7 @@
 @import "main.css";
 @import "friends.css";
 @import "find.css";
+@import "setting.css";
 
 body {
   background-color: white;

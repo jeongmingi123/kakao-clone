@@ -1,0 +1,29 @@
+.main__header__list__notices {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.main__header__list__notices__comment {
+}
+
+.main__header__list__notices__image i {
+  font-size: 17px;
+}
+
+.main__header__list {
+  border-top: 1px solid #f7f7f7;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.main__center__list__Privacy {
+  display: flex;
+
+  margin-bottom: 16px;
+}
+
+.main__center__list {
+  border-top: 1px solid #f7f7f7;
+  margin-top: 20px;
+  padding-top: 15px;
+}

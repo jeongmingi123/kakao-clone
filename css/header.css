@@ -16,6 +16,28 @@
   cursor: pointer;
 }
 
-.header-bar .header-bar__settings {
-  margin-right: 170px;
+.header-setting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-bar-setting {
+  display: flex;
+}
+
+.header-bar__chats {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header-bar__icon__back-setting i {
+  font-size: 17px;
+}
+
+.header-bar__chats {
+}
+
+.header-bar-link i {
+  padding: 3px 0px; /* DIV { padding: 1em 2em }
+  상, 하 = 1em, 좌, 우 = 2em*/
 }
